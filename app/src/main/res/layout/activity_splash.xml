@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/myPrimaryColor"
+    tools:context="muratk.hangdroid.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear_bill"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_height="300dp"
+            android:layout_width="300dp"
+            android:src="@drawable/eczane_icon"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:text="EG Açık Eczanem"/>
+    </LinearLayout>
+
+</RelativeLayout>
